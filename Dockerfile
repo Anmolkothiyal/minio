@@ -6,5 +6,5 @@ RUN mkdir -p /data
 # Expose ports
 EXPOSE 9000 9001
 
-# Start MinIO server
+# Start MinIO
 CMD ["server", "/data", "--console-address", ":9001"]
