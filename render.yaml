@@ -10,8 +10,8 @@ services:
       sizeGB: 1
     envVars:
       - key: MINIO_ROOT_USER
-        value: admin123
+        value: Anmol
       - key: MINIO_ROOT_PASSWORD
-        value: minio123456789
+        value: Molan@#123
       - key: PORT
         value: 9000
